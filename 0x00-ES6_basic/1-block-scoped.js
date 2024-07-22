@@ -1,6 +1,6 @@
 export default function taskBlock(trueOrFalse) {
-  var task = false;
-  var task2 = true;
+  const task = false;
+  const task2 = true;
 
   if (trueOrFalse) {
     const innerTask = true; // eslint-disable-line no-unused-vars
